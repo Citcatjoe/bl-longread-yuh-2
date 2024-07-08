@@ -1,0 +1,27 @@
+{
+	"title": "Saint-Denis: la ville se réinvente pour les JO 2024",
+	"titlesocial": "Saint-Denis: la ville se réinvente pour les JO 2024",
+	"description": "A Saint-Denis, commune limitrophe de Paris, ville principale du fameux département 93 de la Seine Saint-Denis, les choses changent grâce aux JO 2024 qui font bouger les lignes",
+	"authors": {
+		"photos": "Cristophe Blanquart",
+		"videos": null,
+		"writer": {
+			"fname": "Margaux",
+			"lname": "Sitavanc",
+			"title": "Journaliste indépendante",
+			"filetype": "jpg",
+			"url": null
+		},
+		"dev": "César Greppin"
+	},
+	"imgSocial": "social.jpg",
+	"headertheme": "neg", 
+	"blickWhite": true,
+	"blickBlack": false,
+	"headerBoxed": false,
+	"pubDate": "2020-07-23T11:00:00+00:00",
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "https://www.blick.ch/"
+	}
+}
