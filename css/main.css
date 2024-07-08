@@ -451,6 +451,10 @@ header.headroom--unpinned {
   opacity: 0.5;
 }
 
+.elem:hover .label2 {
+  transform: translateY(-5px);
+}
+
 .elem-txt {
   font-family: Poppins;
   font-size: 20px;
@@ -464,10 +468,16 @@ header.headroom--unpinned {
 }
 .elem-txt .elem-txt-wrapper.is-open {
   grid-template-rows: 1fr;
-  padding: 30px;
+  padding: 50px;
 }
 .elem-txt .elem-txt-wrapper .elem-txt-wrapper-inner {
   overflow: hidden;
+  opacity: 0;
+  transition: all 0.25s;
+}
+.elem-txt .elem-txt-wrapper .elem-txt-wrapper-inner.is-visible {
+  opacity: 1;
+  transition: all 0.25s;
 }
 
 .maire {
@@ -493,9 +503,9 @@ header.headroom--unpinned {
 }
 
 .hero {
-  background: #FC4B4B;
+  background: #4B67FC;
   background-size: cover;
-  background-position: center center !important;
+  background-position: center top !important;
 }
 .hero svg#opening {
   position: absolute;

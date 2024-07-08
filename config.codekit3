@@ -1647,7 +1647,7 @@
       "oAP" : "\/csv\/Walmart.csv",
       "oF" : 0
     },
-    "\/csv\/Yuh - Évolution avec graphiques.xlsx" : {
+    "\/csv\/Yuh - Évolution avec graphiques.xlsx" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -1663,7 +1663,7 @@
       "oAP" : "\/csv\/Yuh - fluctuation du panier gagnants et perdants du jour.xlsx",
       "oF" : 0
     },
-    "\/csv\/Yuh - montants début et fin.xlsx" : {
+    "\/csv\/Yuh - montants début et fin.xlsx" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
@@ -2821,6 +2821,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/this\/age.png" : {
+      "ft" : 32768,
+      "iS" : 172742,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/age.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/img\/this\/AI\/Nespresso_Wordmark_2021_CMYK_Black.ai" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3003,6 +3016,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/this\/chiens.png" : {
+      "ft" : 32768,
+      "iS" : 66262,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/chiens.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/img\/this\/close-black.svg" : {
       "ft" : 2097152,
@@ -4056,6 +4082,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/this\/nugget.png" : {
+      "ft" : 32768,
+      "iS" : 97751,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/nugget.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/img\/this\/opening-left_old.png" : {
       "ft" : 32768,
       "iS" : 545818,
@@ -4117,6 +4156,32 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/img\/this\/papier-2.png" : {
+      "ft" : 32768,
+      "iS" : 50425,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/papier-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/this\/papier.png" : {
+      "ft" : 32768,
+      "iS" : 52050,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/papier.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/img\/this\/parlement1.jpg" : {
       "ft" : 16384,
@@ -4242,6 +4307,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/img\/this\/punky.png" : {
+      "ft" : 32768,
+      "iS" : 98916,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/punky.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/img\/this\/pym.png" : {
       "ft" : 32768,
       "iS" : 17316,
@@ -4355,6 +4433,58 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/this\/space.png" : {
+      "ft" : 32768,
+      "iS" : 2832828,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/space.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/this\/space2.png" : {
+      "ft" : 32768,
+      "iS" : 4609150,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/space2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/this\/space3.png" : {
+      "ft" : 32768,
+      "iS" : 3336567,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/space3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/img\/this\/space4.png" : {
+      "ft" : 32768,
+      "iS" : 1804182,
+      "oA" : 0,
+      "oAP" : "\/img\/this\/space4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/img\/this\/swe.svg" : {
@@ -10649,10 +10779,6 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
-      "logical-assignment-operators" : {
-        "active" : 0,
-        "optionString" : "'always',  {'enforceForIfStatements': false}"
-      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -10813,9 +10939,6 @@
       "no-empty-pattern" : {
         "active" : 1
       },
-      "no-empty-static-block" : {
-        "active" : 1
-      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -10956,8 +11079,8 @@
       "no-new-func" : {
         "active" : 0
       },
-      "no-new-native-nonconstructor" : {
-        "active" : 1
+      "no-new-object" : {
+        "active" : 0
       },
       "no-new-symbol" : {
         "active" : 1
@@ -10970,9 +11093,6 @@
       },
       "no-obj-calls" : {
         "active" : 1
-      },
-      "no-object-constructor" : {
-        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -11027,6 +11147,9 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
+      },
+      "no-return-await" : {
+        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
