@@ -34,24 +34,24 @@
 		
 			{{#switch hasImg}}
 				{{#case null}}
-					<h2 class="absolute top-3 md:top-5 left-4 md:left-7">{{label1}}</h2>
-					<span class="label2 absolute bottom-4 md:bottom-7 left-4 md:left-7 right-4 md:right-7 {{label2FontSize}}">{{label2}}</span>
+					<h2 class="absolute top-3 md:top-5 left-3 md:left-7">{{label1}}</h2>
+					<span class="label2 absolute bottom-3 md:bottom-7 left-3 md:left-7 right-3 md:right-7 {{label2FontSize}}">{{label2}}</span>
 				{{/case}}
 				{{#case 'right'}}
 					<div class="bg w-1/4 h-full bg-amber-200 rounded-2xl md:rounded-3xl border-4 md:border-8 border-white float-right" style="background:url('img/this/{{img}}') 30% 200% no-repeat, linear-gradient(55deg, {{bgColor}}, {{lightenColor bgColor}}); background-size: 200% auto"></div>
-					<h2 class="absolute w-3/4 pr-8 top-3 md:top-5 left-4 md:left-7">{{label1}}</h2>
-					<span class="label2  block absolute w-3/4 pr-12 bottom-4 md:bottom-7 left-4 md:left-7 {{label2FontSize}}">{{label2}}</span>
+					<h2 class="absolute w-3/4 pr-8 top-2 md:top-5 left-3 md:left-7">{{label1}}</h2>
+					<span class="label2  block absolute w-3/4 pr-12 bottom-3 md:bottom-7 left-3 md:left-7 {{label2FontSize}}">{{label2}}</span>
 				{{/case}}
 				{{#case 'top'}} 
 					<div class="bg w-full h-1/2 rounded-2xl md:rounded-3xl border-4 md:border-8 border-white" style="background:url('img/this/{{img}}') 115% center no-repeat, linear-gradient(60deg, {{bgColor}}, {{lightenColor bgColor}}); background-size: auto 120%"></div>
-					<h2 class="absolute top-3 md:top-5 left-4 md:left-7 text-white">{{label1}}</h2>
-					<span class="label2 absolute bottom-4 md:bottom-7 left-4 md:left-7 right-4 md:right-7 {{label2FontSize}}">{{label2}}</span>
+					<h2 class="absolute top-2 md:top-5 left-3 md:left-7 text-white">{{label1}}</h2>
+					<span class="label2 absolute bottom-3 md:bottom-7 left-3 md:left-7 right-3 md:right-7 {{label2FontSize}}">{{label2}}</span>
 				{{/case}} 
 				{{#case 'full'}}
 					<div class="bg w-full h-full bg-rose-800 rounded-2xl md:rounded-3xl border-4 md:border-8 border-white" style="background-image:url('img/this/{{img}}'),linear-gradient(60deg, {{bgColor}}, {{lightenColor bgColor}}); background-position: 0% center; background-size: 140%; background-repeat: no-repeat;"></div>
 					<div class="bg gradient absolute top-1 md:top-2 right-1 md:right-2 bottom-1 md:bottom-2 left-1 md:left-2 rounded-xl md:rounded-2xl"></div>
-					<h2 class="absolute top-3 md:top-5 left-4 md:left-7 text-white z-10">{{label1}}</h2>
-					<span class="label2 absolute bottom-4 md:bottom-7 left-4 md:left-7 right-4 md:right-7 {{label2FontSize}} text-white z-10">{{label2}}</span>
+					<h2 class="absolute top-2 md:top-5 left-3 md:left-7 text-white z-10">{{label1}}</h2>
+					<span class="label2 absolute bottom-3 md:bottom-7 left-3 md:left-7 right-3 md:right-7 {{label2FontSize}} text-white z-10">{{label2}}</span>
 				{{/case}} 
 				{{else}}
 					<p>The image position is not specified.</p>
@@ -67,8 +67,8 @@
 	function OptanonWrapper() { } 
 	</script> -->
 	<!-- OneTrust Cookies Consent Notice end for blick.ch --> 
-	{# {{ block('frame') }} #}
-	<body class="h-full bg-slate-200"> 
+	{{ block('frame') }}
+	<body class="h-full"> 
 		<div class="wrapper">
 		<!-- {{ block('loading_overlay') }} -->
 		{{ block('gtm') }}
@@ -79,24 +79,24 @@
 		
 
 		
-		<div class="hero w-full relative pt-48 pb-36">
+		<div class="hero w-full relative pt-24 lg:pt-48  pb-24 lg:pb-36 bg-emerald-300">
 				
 			{# <div class="gradient absolute w-full h-full top-0 z-10"></div> #}
 			
-			<div class="txtcontainer container max-w-8xl px-4 flex items-end">
-				<div class="w-6/12">
-					<h1 class="antialiased leading-none opacity-100 text-white">
-						L'aventure<br>de Yuh en 20 chiffres
+			<div class="txtcontainer container max-w-8xl px-4 md:px-8 xl:px-4 lg:flex lg:items-end">
+				<div class="lg:w-6/12 mb-8 lg:mb-0">
+					<h1 class="antialiased leading-none opacity-100">
+						L'aventure de Yuh en 20 chiffres
 					</h1>
 				</div>
-				<div class="w-1/12"></div>
-				<div class="w-5/12">
+				<div class="lg:w-1/12"></div>
+				<div class="lg:w-5/12">
 					{{ block('authors') }}
-					<h3 class="text-lg text-white mt-6">A l’occasion de l’anniversaire de Yuh, Blick vous propose de partir à la découverte de faits et chiffres marquants et parfois insolites qui ont jalonné les trois premières années d’existence de la néo-banque basée à Gland. Prêts à embarquer à bord de la fusée Yuh ?</h3>
+					<h3 class="text-lg mt-6">A l’occasion de l’anniversaire de Yuh, Blick vous propose de partir à la découverte de faits et chiffres marquants et parfois insolites qui ont jalonné les trois premières années d’existence de la néo-banque basée à Gland. Prêts à embarquer à bord de la fusée Yuh ?</h3>
 				</div>
 			</div>
-			<div class="h-8 md:h-12 flex items-center container max-w-8xl px-4 mt-12">
-				<p class="text-xs md:text-base mr-2 opacity-50">Article réalisé avec le soutien de</p>
+			<div class="h-8 md:h-12 flex items-center container max-w-8xl px-4 md:px-8 xl:px-4 mt-8 lg:mt-12">
+				<p class="text-xs md:text-base mr-2 opacity-50">Article présenté par</p>
 				<a href="https://www.yuh.com/fr/" target="_blank" class="h-3/4"><img src="img/this/logo-yuh.svg" alt="Logo Yuh" class="h-full"></a>
 			</div>
 		</div> 
@@ -128,12 +128,12 @@
 
 		
 
-		<footer class="container max-w-8xl relative bg-slate-200">   
+		<footer class="container w-full relative bg-slate-200">   
 			{{ block('footer_logo') }} 
 			<!-- <div class="bg-white px-4">
 				{{ block('other_teasers') }} 
 			</div> -->
-			<div class="bg-gray-200 px-4">
+			<div class="bg-emerald-200 px-4">
 				{{ block('footer_menu') }} 
 			</div>
 		</footer> 
