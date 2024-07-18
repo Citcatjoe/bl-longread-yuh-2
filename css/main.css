@@ -182,7 +182,7 @@ h1 span:last-child {
   }
 }
 
-h2 {
+h2:not(#onetrust-policy-title) {
   font-family: "Proxima Soft";
   font-weight: 800 !important;
   font-size: 50px !important;
@@ -192,7 +192,7 @@ h2 {
   width: calc(100% - 60px);
 }
 @media (min-width: 768px) {
-  h2 {
+  h2:not(#onetrust-policy-title) {
     display: block;
     font-size: 90px !important;
   }
@@ -206,10 +206,9 @@ span.label2 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h3 {
+h3:not(.ot-dpd-title) {
   font-family: Poppins;
   font-weight: 400 !important;
-  line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

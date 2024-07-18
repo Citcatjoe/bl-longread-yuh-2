@@ -239,7 +239,7 @@ h1
     };
 }
 
-h2
+h2:not(#onetrust-policy-title)
 {
     font-family: 'Proxima Soft';
     font-weight: 800 !important; 
@@ -273,12 +273,12 @@ span.label2
 }
 
 
-h3 
+h3:not(.ot-dpd-title) 
 {
     font-family: Poppins;
     font-weight: 400 !important;
     //font-size: 30px;
-    line-height: 1;
+    //line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
